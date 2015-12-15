@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>HTML Form </title>
+	<link href="../jquery-ui.css" rel="stylesheet">
+	<script src="../jquery-1.11.3.js"></script>
+	<script src="../jquery-ui.js"></script>
+	<script type="text/javascript" src="script/edit_form.js"></script>
+	<link rel="stylesheet" type="text/css" href="../jquery-ui.css"/>
+	<link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+<body>
+	<style>
+
+	</style>
+
+	<div id="form">
+<input type="text" placeholder="Name" id="name"/>  <span id="name_err">Enter your current name</span></br></br>
+<input type="text" placeholder="Surname" id="sname"/> <span id="sname_err">Enter your current surname</span></br></br>
+<!-- <input type="text" placeholder="City" id="city"/>   -->
+
+<input type="text" placeholder="E-Mail" id="mail"/> <span id="mail_err">Enter your current e-mail adress (sample: name@adres.domen)</span></br></br>
+<input type="text" placeholder="Phone format: 0XXXXXXXXX" id="phone"/> <span id="phone_err">Enter your current phone number (sample: 0441231231)</span></br></br></br>
+<input type="text" placeholder="Debugging info" id="debug"><span id="debug_err">Enter enything text</span><br />
+<select id="sel">
+	<option selected value="">Enter your city</option>
+	<option value="kh">Kharkov</option>
+	<option value="od">Odessa</option>
+	<option value="dn">Dnepropetrovsk</option>
+	<option value="zp">Zaporojie</option>
+	<option value="lv">Lvov</option>
+	<option value="ki">Kiev</option>
+</select>
+<br><br>
+<input type="text" placeholder="Enter anything" required/>
+ <!-- <span id="city_err">Enter your current city</span>  --> </br></br>
+<input type="button" value="Send" id="send"/>
+</div>
+</br></br></br></br></br></br></br></br></br></br></br></br></br>
+<div id="dataInfo">
+<div class="abs" id="name_info">
+</div></br>
+<div class="abs" id="sname_info">
+</div></br>
+<div class="abs" id="mail_info">
+</div></br>
+<div class="abs" id="phone_info">
+</div></br>
+<div class="abs" id="city_info">
+</div>
+</div>
+<div id="flex">
+<h1>Флексагон</h1>
+<p class="fl">Флексагон представляет собой бумажную фигуру, которая имеет
+три и более стороны. Поначалу кажется, что это невозможно, но
+вспомните ленту Мёбиуса, она ведь имеет всего одну сторону,
+в отличие от листа бумаги, и, тем не менее, реальна. Так же
+реален и флексагон, который легко сделать и склеить в домашних
+условиях. Он выглядит как двухсторонний шестиугольник, но
+стоит согнуть его особым образом, и мы увидим третью сторону.
+Легко убедиться, что мы имеем дело именно с тремя сторонами,
+если раскрасить их в разные цвета. Перегибая флексагон,
+по очереди будем наблюдать все его поверхности.</p>
+</div>
+<div>
+<table border="1">
+	<thead style="background-color: gray">
+		<tr><th>Имя</th><th>Цвет</th><th>Код</th><th>Описание</th></tr>
+	</thead>
+			<tbody>
+				<tr><td>white</td><td></td><td>#ffffff или #fff </td><td>Белый</td></tr>
+				<tr><td>silver</td><td style="background-color:silver;"></td><td>#c0c0c0</td><td>Серый</td></tr>
+				<tr><td>gray</td><td style="background-color:gray;"></td><td>#808080 </td><td>Teмно-серый</td></tr>
+				<tr><td>black</td><td style="background-color:black;"></td><td>#000000 или #000</td><td>Черный</td></tr>
+				<tr><td>maroon</td><td style="background-color:maroon;"></td><td>#800000</td><td>Темно-красный</td></tr>
+				<tr><td>red</td><td style="background-color:red;"></td><td>#ff0000 или #f00</td><td>Красный</td></tr>
+
+
+			</tbody>
+</table>
+</div>
+<div id="last">
+	<p> DIV INNER TEXT </p>
+</div>
+<input type="button" value="On start" id="onstart" />
+<br /> <br />
+<input type="button" value="Add field" id="addField" />
+</body>
+</html>

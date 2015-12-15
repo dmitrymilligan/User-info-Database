@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Database</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style/style.css">
+<link rel="stylesheet" href="script/jquery/jquery-ui.css">
+</head>
+<body>
+<div id="wrapper" align="center">
+  <div id="logo">
+<a href="#" title="Author: Dmitry Danchenko"><img src="style/logo.png" alt="adduser logo"/></a>
+  </div>
+</br></br>
+
+<div id="tableAndBtn">
+<!-- Main Table -->
+<div id="userTable">
+<table border='1' width='70%'>
+<tr><th>Name</th><th>Salary</th><th>ID</th><th>Date</th></tr>
+<tbody id='tbody'>
+</tbody>
+</table>
+</div>
+</br>
+
+<!-- Main Table end -->
+<!-- Main Add user button -->
+<div id="inputs">   <!-- #inputs -->
+<input type="button" id="d"  title="Add user" value="Add user datas" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button"><span class="ui-button-text"></span>
+<!-- Main Add user button end -->
+<input type="button" value="Find for index" id="clickHere" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button"><span class="ui-button-text"></span>
+</br></br>
+</div>   <!-- #inputs -->
+</div>
+<!-- Main Pesonal datas-->
+<div id="dialog" title="Personal datas"> <!-- #dialog -->
+ <input type="text"  placeholder="Name" id="name">  </br></br>
+ <input type="text"  placeholder="Salary" id="salary"> </br></br>
+ <input type="text"  placeholder="Date" id="date"> </br></br>
+ <input type="button" value="Send" id="send">  </br></br>
+ <input type="button"  value="Close" id="close">
+</div>    <!-- #dialog -->
+<!-- Main Presonal datas end -->
+
+
+
+<!-- Change (#1) -->
+<div id="changeDatasInput" title="Change personal datas">
+  <input type="text"  placeholder="Name" id="change_name"> </br></br>
+  <input type="text"  placeholder="Salary" id="change_salary"> </br></br>
+  <input type="text"  placeholder="Date" id="change_date"> </br></br>
+  <input type="button" value="Send" id="change_send"> </br></br>
+  <input type="button" value="Close" id="change_close"> </br></br>
+
+  <!-- Change (#1) end -->
+</div>
+<div id="findAndChange" title="Find user for ID">
+  <div class="result">
+
+  </div>
+<br><br><input type="text" id="findForID" placeholder="Find for ID">
+<input type="button" id="findForIndexButton" value="Find">
+</div>
+<div id="findAndChangeMenu" title="Change datas found">
+  <input type="text" placeholder="Name" id="find_change_name"> </br></br>
+  <input type="text" placeholder="Salary" id="find_change_salary"> </br></br>
+  <input type="text" placeholder="Date" id="find_change_date"> </br></br>
+  <input type="button" value="Send" id="find_change_send"> </br></br>
+  <input type="button" value="Close" id="find_change_close"> </br></br>
+</div>
+</div>
+
+</body>
+<script src="script/jquery/jquery-1.11.3.js"></script>
+<script src="script/jquery/jquery-ui.js"></script>
+<script src="script/script.js"></script>
+</html>

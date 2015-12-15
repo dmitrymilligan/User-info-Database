@@ -1,0 +1,80 @@
+
+input {
+width: 200px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+select {
+  border-radius: 5px;
+}
+#zz {
+  margin-left: 50px;
+  padding-left: 40px;
+  border-left: 1px solid gray;
+}
+h1 {
+  color : red;
+  font-size: 25px;
+  margin-left: -10%;
+  font-family: Georgia, Times, serif;
+}
+.fl {
+  color: #333;
+  font-family: Arial, Verdana, sans-serif;
+  border-bottom: 1px solid #999;
+  border-left: 1px solid #999;
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+.pp {
+  color: gray;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+  
+#last p {
+  background-color: green;
+  padding-top: 50%;
+  padding-left: 30%;
+  border: solid 1px black;
+  border-radius: 5px;
+
+}
+#square {
+  height: 550px;
+  width: 550px;
+  background-color: yellow;
+margin: 10px;
+}
+#square p {
+  font-size: 20px;
+  border: 1px solid black;
+  padding-top: 30px;
+  margin-top: 15px;
+}
+#flex {
+  height: 20%;
+  width: 30%;
+margin : 10%;
+}
+#form, #dataInfo {
+  position: absolute;
+  margin-left: 30%;
+  padding-left: 20px;
+border-left: 1px solid gray;
+}
+span {
+  background-color: red;
+  border-radius: 5px;
+  color: white;
+}
+.abs {
+  position: absolute;
+
+  text-align: center;
+  background-color: black;
+  color: white;
+  width: 400px;
+  border: 2px solid gray;
+  border-radius: 5px;
+}

@@ -1,0 +1,132 @@
+#wrapper {
+  background-color: white;
+  width: 960px;
+  margin: 30px auto;
+  border-radius:5px;
+  background-color : #e5f5fe;
+  border: 3px solid #1593db;
+}
+body {
+  background-color: gray;
+}
+ table, #delButton, #send, #name,
+ #close, #infClose, #infoClose,
+ #change {
+width: 500px;
+z-index: 1;
+border: 3px solid #1593db;
+background: #e5f5fe;
+font: 1em verdana;
+color: #000;
+padding: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+-webkit-transition: 1s ease;
+-moz-transition: 1s ease;
+-o-transition: 1s ease;
+-ms-transition: 1s ease;
+transition: 1s ease;
+}
+input {
+width: 200px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+#dialog {
+  height: 288px!important;
+    width: 327px!important;
+}
+#screen {
+background-color: red;
+}
+
+.size {
+height: 400px;
+width: 400px;
+}
+#salary, #name, #date {
+opacity: 0.5;
+}
+#delButton {
+width: 100px;
+color: red;
+border: 2px red;
+font-weight: bold;
+}
+#delButton:hover {
+  border: 2px red;
+  -webkit-transition: 1s ease;
+  -moz-transition: 1s ease;
+  -o-transition: 1s ease;
+  -ms-transition: 1s ease;
+  transition: 1s ease;
+}
+#d, #clickHere {
+    outline-color: transparent;
+  -webkit-transition: 1s ease;
+  -moz-transition: 1s ease;
+  -o-transition: 1s ease;
+  -ms-transition: 1s ease;
+  transition: 1s ease;
+}
+#d:hover, #clickHere:hover {
+  color: #1593db;
+}
+text {
+color: white;
+}
+#name, #date, #salary {
+width: 300px;
+background: #1C2B20;
+color: #b0e0e6;
+font-weight: bold;
+opacity: 1;
+}
+#send {
+outline-color: transparent;
+background: #07f48f;
+border: 1px #07f48f;
+color: #fff;
+width: 300px;
+-webkit-transition: 1s ease;
+-moz-transition: 1s ease;
+-o-transition: 1s ease;
+-ms-transition: 1s ease;
+transition: 1s ease;
+}
+#send:hover {
+  background: #00cc00;
+}
+#close, #infClose, #infoClose {
+width: 300px;
+color: #fff;
+background: #f67575;
+border: 1px #f67575;
+-webkit-transition: 1s ease;
+-moz-transition: 1s ease;
+-o-transition: 1s ease;
+-ms-transition: 1s ease;
+transition: 1s ease;
+}
+
+#close:hover, #infClose:hover, #infoClose:hover {
+background: #ff2500;
+border: 1px #ff2500;
+}
+#change {
+  width:300px;
+}
+#logo {
+  height: 150px;
+  width: 150px;
+  float: left;
+}
+#tableAndBtn {
+  margin: 0 0 20px 350px;
+  height: 400px;
+}
+.result {
+  background: #fff;
+  color: #000000;
+}
